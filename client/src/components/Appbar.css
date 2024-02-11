@@ -1,0 +1,44 @@
+/* Appbar.css */
+
+.appbar-container {
+  position: relative;
+  width: 100%;
+  height: 60px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+  filter: brightness(0.5); /* Adjust brightness for better visibility of text */
+}
+
+.appbar-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  color: #fff; /* Text color */
+}
+
+.agency-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.contact-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.email,
+.phone {
+  margin-bottom: 5px;
+}

@@ -1,0 +1,78 @@
+/* Navbar.css */
+.navbar-root {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar-appbar {
+    background: linear-gradient(to right, #fff, #ff8000);
+    padding: 10px;
+  }
+  
+  
+  .navbar-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-menu-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .navbar-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+ /* Navbar.css */
+/* ... (Previous styles remain unchanged) */
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-search-input-container {
+    display: flex;
+    align-items: center;
+    background-color: #ff8000;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .navbar-search-icon {
+    margin-right: 5px;
+  }
+  
+  .navbar-search-input {
+    border: none;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  
+  .navbar-drawer {
+    width: 250px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-drawer-item {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-drawer-item:hover {
+    background-color: #f5f5f5;
+  }
+  .navbar-link {
+    text-decoration: none;
+  }

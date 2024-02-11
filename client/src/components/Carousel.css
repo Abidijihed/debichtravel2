@@ -1,0 +1,37 @@
+/* Carousel.css */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 100; /* Set your desired max width */
+    margin: auto;
+  }
+  
+  .carousel-image-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .carousel-left {
+    left: 10px;
+  }
+  
+  .carousel-right {
+    right: 10px;
+  }
+  
